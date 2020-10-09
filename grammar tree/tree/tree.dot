@@ -1,0 +1,23 @@
+digraph ast{
+  fontname = "Microsoft YaHei";
+  fontsize = 10;
+
+  node [shape = circle, fontname = "Microsoft YaHei", fontsize = 10];
+  edge [fontname = "Microsoft YaHei", fontsize = 10];
+  node [shape="plaintext"];
+
+
+node1 [label="add(+)"];
+node2 [label="sub(-)"];
+node3 [label="mul(*)"];
+node4 [label="add(+)"];
+node1->node2
+node1->3;
+node2->1
+node2->node3;
+node3->5
+node3->node4;
+node4->4
+node4->2;
+}
+
