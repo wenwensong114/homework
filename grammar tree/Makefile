@@ -4,3 +4,4 @@ all:
 	gcc grammar/cal.tab.c grammar/lex.yy.c -lfl -ly
 	./a.out
 	dot tree/tree.dot -Tpng -o tree.png
+        xdg-open tree.png
